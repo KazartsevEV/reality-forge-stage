@@ -8,7 +8,7 @@
 # tagline: "A base template for all stages."
 
 # 'PUBLIC', 'PRIVATE', or 'UNLISTED'.
-# visibility: 'PRIVATE'
+# visibility: 'PUBLIC'
 
 # 'ADJACENT' | 'NONE' | 'COVER' | 'FULLSCREEN'
 # 'ADJACENT' is default. The frame will display on the side of the
@@ -19,6 +19,7 @@
 # 'FULLSCREEN' will make nothing below the header bar
 #   show except for your stage.
 # position: 'ADJACENT'
+
 # Self-explanatory.
 # tags:
 #  - 'Stage'
