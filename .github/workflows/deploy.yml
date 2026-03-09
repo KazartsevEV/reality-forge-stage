@@ -26,9 +26,3 @@ jobs:
         run: yarn build
         env:
           CHUB_AUTH_TOKEN: ${{ secrets.CHUB_AUTH_TOKEN }}
-
-      - name: Deploy to Chub
-        run: |
-          echo "Deploying to Chub..."
-        env:
-          CHUB_AUTH_TOKEN: ${{ secrets.CHUB_AUTH_TOKEN }}
